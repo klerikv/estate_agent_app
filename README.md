@@ -18,7 +18,7 @@
    git clone https://github.com/klerikv/estate_agent_app.git
 
 2. Установите зависимости:
-    bash
+    ```bash
     cd estate_agent
     npm install
     cd frontend && npm install
@@ -28,10 +28,10 @@
 
 4. Запустите:
 
-    bash
-    # Бэкенд (http://localhost:5000)
+    ```bash
+    #### Бэкенд (http://localhost:5000)
     cd backend && npm start
 
-    # Фронтенд (http://localhost:3000)
+    #### Фронтенд (http://localhost:3000)
     cd frontend && npm run dev
 
