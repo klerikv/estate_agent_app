@@ -1,0 +1,42 @@
+
+.listing-card:hover {
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+.filters-container {
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.listings-container{
+    width: 95%;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 20px;
+    padding: 40px 80px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.listing-card {
+    background-color: #F5F5F7;
+    padding: 30px;
+    border-radius: 20px;
+    gap: 40px;
+    line-height: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.listing-card .city{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.listing-card .price{
+    font-size: 28px;
+    font-weight: 500;
+}

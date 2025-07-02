@@ -1,0 +1,165 @@
+
+body {
+    font-family: Roboto;
+    background-color: #F5F5F7;
+    margin: 0;
+    line-height: 100%;
+    
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #213547;
+}
+
+
+/*== Общие стили ==*/
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 30px;
+}
+
+input, select, .white-btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.1);
+    padding: 15px 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.green-btn {
+  background-color: #2EB05A;
+  color: #fff;
+}
+
+.blue-btn {
+  background-color: #80B6DA;
+  background-color: #4350C7;
+  color: #fff;
+}
+
+.red-btn {
+  background-color: #F7516A;
+  color: #fff;
+
+}
+
+
+
+
+/*== Для формы входа ==*/
+
+.center {
+  position: absolute;  
+  top: 50%;  
+  left: 50%;
+  transform: translateY(-50%)  translateX(-50%); 
+}
+
+
+
+/*== Для аналитики ==*/
+
+.analytics-grid{
+  justify-content: center;
+  gap: 100px;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+.analytics-grid ol{
+  text-align: left;
+  font-size: 20px;
+  padding-left: 0px;
+}
+
+.analytics-grid li {
+  margin-bottom: 15px;
+  color: rgba(0, 0, 0, 0.4);
+  list-style-type: none;
+  
+}
+
+.analytics-grid li:first-child{
+  font-size: 24px;
+  color: #213547;
+}
+
+
+.analytics-grid h4 {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
+
+.analytics-grid p {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+/*== Для фильтров ==*/
+.filters-container {
+  align-items: flex-start;
+
+}
+
+.filters-container label{
+  font-size: 18px;
+}
+
+.filters-form{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.filters-form input, .filters-form select{
+  width: 250px;
+  padding: 15px;
+  margin-top: 15px;
+  box-sizing: border-box;
+}
+
+.filters-form button{
+  padding: 15px;
+  font-size: 16px;
+  width: 120px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+
+
+/*== Иконки для кнопок ИЗМЕНИТЬ и УДАЛИТЬ ==*/
+.icons button img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.icons button{
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+
