@@ -24,7 +24,7 @@
     cd frontend && npm install
     cd ../backend && npm install
 
-3. Создайте .env файл (см. backend/.env.example).
+3. Создайте backend/.env файл (см. backend/.env.example).
 
 4. Запустите:
 
